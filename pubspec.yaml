@@ -38,7 +38,7 @@ dependencies:
   url_launcher: ^6.0.17
   cached_network_image: ^3.2.0
   http: ^0.13.4
-  bloc: ^8.0.2
+  bloc: ^8.0.3
   flutter_bloc: ^8.0.1
 
 dev_dependencies:
@@ -63,8 +63,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  assets:
-    - assets/img.jpg
+  # assets:
+  #   - assets/img.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

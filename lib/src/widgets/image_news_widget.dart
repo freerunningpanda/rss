@@ -19,7 +19,9 @@ class ImageNewsWidget extends StatelessWidget {
         width: width,
         alignment: Alignment.center,
         fit: BoxFit.fill,
-        placeholder: (context, url) => Image.asset('assets/img.jpg'),
+        placeholder: (context, url) => const Center(
+          child: CircularProgressIndicator(),
+        ),
       ),
     );
   }
